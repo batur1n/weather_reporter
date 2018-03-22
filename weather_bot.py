@@ -3,7 +3,7 @@
 import json 
 import urllib2
 
-API_KEY = "c8bdc886c163d6f6"
+API_KEY = "############" # http://api.wunderground.com/weather/api
 TEMP_URL = "http://api.wunderground.com/api/{}/geolookup/conditions/forecast/q/Ukraine/Kiev.json".format(API_KEY)
 ASTR_URL = "http://api.wunderground.com/api/{}/astronomy/q/Ukraine/Kiev.json".format(API_KEY)
 
